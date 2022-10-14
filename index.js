@@ -1,6 +1,6 @@
 
 function format(){
-  var data = document.getElementById("data").value;
+  var data = document.getElementById("data").value.replace(" ","");
   var resultData = document.getElementById("data");
   var result = document.getElementById("result");
 
