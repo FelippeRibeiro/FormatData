@@ -1,12 +1,20 @@
 body{
-    display: flex; 
-    flex-direction: column;
+    display:flex;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     min-height: 100hv;
+    background-image: linear-gradient(100deg, rgb(39, 81, 196),black);
+   
+}
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+   
 }
 #result{
-    background-color: lightgreen;
+    background-color: rgb(59, 63, 59);
     font-size:xx-large;
     display: flex; 
     flex-direction: column;
@@ -29,6 +37,22 @@ body{
         align-items: center;
         justify-content: center;  
     }
+
+   
+#button{
+    top: 10;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#button:hover {
+    background-color: rgb(129, 115, 115);
+  }
+
+
 
 
     
