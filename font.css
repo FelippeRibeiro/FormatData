@@ -1,58 +1,57 @@
-body{
-    display:flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    min-height: 100hv;
-    background-image: linear-gradient(100deg, rgb(39, 81, 196),black);
-   
+body {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  min-height: 100hv;
+  background-color: rgb(13, 76, 99);
 }
-#container{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-   
+#container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
-#result{
-    background-color: rgb(151, 155, 151);
-    font-size:xx-large;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100hv; 
+#result {
+  background-color: rgb(151, 155, 151);
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100hv;
 }
-#data{
-    width: 400px;
-    height: 30px;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;}
-    
-    div{ width: 700px;
-        height: 500px;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;  
-    }
+#data {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-align: center;
+  font-size: large;
+}
+div {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-   
-#button{
-    top: 10;
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 30px;
-    font-size: 20px;
-    font-style: oblique;
+#button {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  font-size: medium;
+  padding: 10px 35px;
+  border-radius: 10px;
+  transition: ease 0.5s;
 }
 
 #button:hover {
-    background-color: rgb(129, 115, 115);
-  }
-
-
-
-
-    
+  transform: scale(1.2);
+  background-color: rgb(203, 190, 190);
+}
