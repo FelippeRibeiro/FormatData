@@ -3,7 +3,7 @@ body {
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  min-height: 100hv;
+  min-height: 100px;
   background-color: rgb(13, 76, 99);
 }
 #container {
@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100hv;
 }
 #data {
   width: 400px;
